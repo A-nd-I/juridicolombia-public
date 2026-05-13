@@ -1,0 +1,50 @@
+JURIDICOLOMBIA - LANDING PACKAGE
+
+Public-facing product and sales materials for JuridiColombia.
+
+LANGUAGE STANDARD
+
+- General product, engineering, roadmap, sales, issues, and contact copy: English.
+- Colombian legal-domain names remain in Spanish when they refer to official legal concepts or sources:
+  - Código Civil
+  - Código de Comercio
+  - Código General del Proceso
+  - artículo
+
+FILES
+
+landing/
+  00-START-HERE.txt        this quick orientation file
+  INDEX.md                quick navigation by audience
+  OVERVIEW.md             package summary
+  README.md               folder guide
+  SALES-NOTES.md          demo and pitch notes
+  PRODUCT-DESCRIPTION.md  full product narrative
+  index.html              visual landing page
+
+START HERE
+
+1. Read INDEX.md.
+2. Choose the audience or use case.
+3. Use PRODUCT-DESCRIPTION.md for product strategy.
+4. Use SALES-NOTES.md for demos and conversations.
+5. Use index.html as the visual landing page.
+
+CORE MESSAGE
+
+JuridiColombia gives Colombian legal professionals instant, private, offline access to core legal references in Chrome.
+
+KEY POINTS
+
+- Search by artículo number or keyword.
+- Embedded legal references for offline use.
+- Minimal permissions.
+- Official-source quick links.
+- User-managed custom links.
+- Public repository should show screenshots, roadmap, issues, and contact.
+
+STATUS
+
+Version: 1.0
+Created: May 13, 2026
+Status: Ready for public product presentation
