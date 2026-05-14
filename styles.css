@@ -103,6 +103,13 @@ footer .page {
   font-size: 17px;
 }
 
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  display: block;
+  object-fit: contain;
+}
+
 .nav-actions {
   gap: 14px;
   flex-wrap: wrap;
