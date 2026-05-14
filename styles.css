@@ -148,7 +148,7 @@ footer .page {
 }
 
 .hero {
-  padding: 84px 0 60px;
+  padding: 60px 0 40px;
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
   gap: 48px;
@@ -166,7 +166,7 @@ footer .page {
 
 .eyebrow {
   padding: 7px 12px;
-  margin-bottom: 22px;
+  margin-bottom: 12px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(15, 118, 110, 0.08);
@@ -188,7 +188,7 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(3rem, 7vw, 6.6rem);
+  font-size: clamp(2rem, 5vw, 3.8rem);
   max-width: 880px;
 }
 
@@ -210,14 +210,14 @@ h3 {
 }
 
 .hero-copy {
-  margin: 24px 0 0;
+  margin: 14px 0 0;
   max-width: 700px;
 }
 
 .hero-actions {
   gap: 14px;
   flex-wrap: wrap;
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 .button {
