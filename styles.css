@@ -108,6 +108,7 @@ footer .page {
   height: 36px;
   display: block;
   object-fit: contain;
+  background: transparent;
 }
 
 .nav-actions {
