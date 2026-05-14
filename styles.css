@@ -203,6 +203,19 @@ h3 {
   letter-spacing: -0.02em;
 }
 
+.coming-soon {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 3px 8px;
+  font-size: 0.7em;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(15, 118, 110, 0.15);
+  color: var(--accent-dark);
+  border-radius: 4px;
+}
+
 .hero-copy,
 .section-intro p {
   color: var(--muted);
