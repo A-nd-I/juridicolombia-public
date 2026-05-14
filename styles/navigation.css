@@ -8,36 +8,42 @@
 }
 
 .topbar-inner {
-  min-height: 72px;
+  min-height: 64px;
   justify-content: space-between;
-  gap: 20px;
+  gap: 16px;
+  flex-wrap: nowrap;
 }
 
 .brand {
-  gap: 12px;
+  gap: 10px;
+  flex: 0 0 auto;
   font-weight: 700;
   letter-spacing: -0.02em;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .brand-logo {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   display: block;
   object-fit: contain;
   background: transparent;
 }
 
 .nav-actions {
-  gap: 14px;
-  flex-wrap: wrap;
+  gap: 10px;
+  flex: 0 1 auto;
+  flex-wrap: nowrap;
   justify-content: flex-end;
+  min-width: 0;
 }
 
 .nav-links {
-  gap: 18px;
+  gap: 14px;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 .nav-links a {
@@ -49,8 +55,8 @@
 }
 
 .nav-download {
-  min-height: 38px;
-  padding: 0 14px;
+  min-height: 36px;
+  padding: 0 13px;
   display: inline-flex;
   align-items: center;
   border: 1px solid var(--accent-dark);
@@ -59,6 +65,7 @@
   color: var(--surface);
   font-weight: 800;
   text-decoration: none;
+  white-space: nowrap;
   box-shadow: 0 8px 24px rgba(15, 118, 110, 0.18);
   transition:
     background 0.2s ease,
@@ -74,7 +81,8 @@
 
 .language-switcher {
   gap: 4px;
-  padding: 4px;
+  padding: 3px;
+  flex: 0 0 auto;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(255, 250, 240, 0.76);
@@ -83,7 +91,7 @@
 .lang-button {
   border: 0;
   border-radius: 999px;
-  padding: 7px 11px;
+  padding: 6px 10px;
   background: transparent;
   color: var(--muted);
   font: inherit;

@@ -22,6 +22,12 @@
   }
 }
 
+@media (max-width: 760px) {
+  .brand span {
+    display: none;
+  }
+}
+
 @media (max-width: 620px) {
   .page,
   .topbar-inner {
@@ -55,8 +61,8 @@
   }
 
   .nav-download {
-    order: 3;
-    width: 100%;
-    justify-content: center;
+    min-height: 34px;
+    padding: 0 10px;
+    font-size: 0.92rem;
   }
 }
