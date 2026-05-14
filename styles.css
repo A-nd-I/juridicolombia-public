@@ -255,6 +255,21 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.preview-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  margin-bottom: 18px;
+  transition: box-shadow 0.3s ease;
+}
+
+.preview-image:hover {
+  box-shadow: 0 12px 40px rgba(54, 42, 25, 0.12);
+}
+
 .search-preview {
   border-radius: 20px;
   border: 1px solid var(--line);
