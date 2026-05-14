@@ -33,7 +33,7 @@ const translations = {
     featureTwoCopy:
       'Core legal datasets are available in the extension, reducing dependency on slow public portals during research moments.',
     featureThreeLabel: 'User-owned',
-    featureThreeTitle: 'Custom links stay local',
+    featureThreeTitle: 'Custom links stay local <span class="coming-soon">Coming soon</span>',
     featureThreeCopy:
       'Users can save their own legal web pages through Chrome Storage without sending them to a backend.',
     coverageLabel: 'Coverage',
@@ -115,7 +115,7 @@ const translations = {
     featureTwoCopy:
       'Los datos legales principales están disponibles en la extensión, reduciendo dependencia de portales públicos lentos.',
     featureThreeLabel: 'Propiedad del usuario',
-    featureThreeTitle: 'Enlaces personalizados locales',
+    featureThreeTitle: 'Enlaces personalizados locales <span class="coming-soon">Próximamente</span>',
     featureThreeCopy:
       'Los usuarios pueden guardar sus propias páginas legales con Chrome Storage sin enviarlas a un backend.',
     coverageLabel: 'Cobertura',
