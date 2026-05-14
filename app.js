@@ -191,4 +191,4 @@ for (const button of document.querySelectorAll('.lang-button')) {
   });
 }
 
-setLanguage('en');
+setLanguage('es');
