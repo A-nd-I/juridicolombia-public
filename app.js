@@ -3,12 +3,16 @@ const translations = {
     navProduct: 'Product',
     navCoverage: 'Coverage',
     navTrust: 'Trust',
+    navScreenshots: 'Screenshots',
+    navDownload: 'Download',
     eyebrow: 'Chrome Extension · Private legal reference',
     heroTitle: 'Colombian legal search, built for the browser.',
     heroCopy:
       'JuridiColombia helps legal professionals search core Colombian legal references by artículo number or keyword, without sending the core research workflow to a server.',
-    primaryCta: 'See how it works',
-    secondaryCta: 'View roadmap',
+    primaryCta: 'Download on Chrome Web Store',
+    secondaryCta: 'See how it works',
+    storeNote:
+      'Available on Chrome Web Store · v0.1.0 · Does not collect personal data.',
     previewTitle: 'Search preview',
     previewQuery: 'keyword: responsabilidad',
     previewSource: 'Código Civil · Result 1 of 12',
@@ -78,6 +82,7 @@ const translations = {
     statusTitle: 'Public product page. Private source code.',
     statusCopy:
       'This repository is intended for credibility, roadmap visibility, screenshots, issues, and contact.',
+    downloadCta: 'Download extension',
     contactCta: 'Contact',
     footerCopy: 'Reference tool only. Not legal advice.',
   },
@@ -85,12 +90,16 @@ const translations = {
     navProduct: 'Producto',
     navCoverage: 'Cobertura',
     navTrust: 'Confianza',
+    navScreenshots: 'Screenshots',
+    navDownload: 'Descargar',
     eyebrow: 'Extensión de Chrome · Referencia legal privada',
     heroTitle: 'Búsqueda legal colombiana, hecha para el navegador.',
     heroCopy:
       'JuridiColombia ayuda a profesionales legales a consultar referencias colombianas por número de artículo o palabra clave, sin enviar el flujo principal de búsqueda a un servidor.',
-    primaryCta: 'Ver cómo funciona',
-    secondaryCta: 'Ver roadmap',
+    primaryCta: 'Descargar en Chrome Web Store',
+    secondaryCta: 'Ver cómo funciona',
+    storeNote:
+      'Disponible en Chrome Web Store · v0.1.0 · No recopila datos personales.',
     previewTitle: 'Vista de búsqueda',
     previewQuery: 'palabra clave: responsabilidad',
     previewSource: 'Código Civil · Resultado 1 de 12',
@@ -161,6 +170,7 @@ const translations = {
     statusTitle: 'Página pública de producto. Código fuente privado.',
     statusCopy:
       'Este repositorio está pensado para credibilidad, roadmap, screenshots, issues y contacto.',
+    downloadCta: 'Descargar extensión',
     contactCta: 'Contacto',
     footerCopy: 'Herramienta de referencia. No es asesoría legal.',
   },

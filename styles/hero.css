@@ -1,0 +1,122 @@
+.hero {
+  padding: 60px 0 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  gap: 48px;
+  align-items: center;
+}
+
+.eyebrow {
+  padding: 7px 12px;
+  margin-bottom: 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(15, 118, 110, 0.08);
+  font-size: 0.82rem;
+}
+
+.coming-soon {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 3px 8px;
+  font-size: 0.7em;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(15, 118, 110, 0.15);
+  color: var(--accent-dark);
+  border-radius: 4px;
+}
+
+.hero-copy {
+  margin: 14px 0 0;
+  max-width: 700px;
+}
+
+.hero-actions {
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.button {
+  min-height: 46px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.button-primary {
+  background: var(--ink);
+  color: var(--surface);
+}
+
+.button-secondary {
+  background: rgba(255, 250, 240, 0.7);
+}
+
+.button-on-dark {
+  color: var(--surface);
+  border-color: rgba(255, 250, 240, 0.44);
+}
+
+.store-note {
+  max-width: 640px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.product-card {
+  padding: 19px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 250, 240, 0.78);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  margin-bottom: 14px;
+  transition: box-shadow 0.3s ease;
+}
+
+.preview-image:hover {
+  box-shadow: 0 12px 40px rgba(54, 42, 25, 0.12);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 11px;
+  margin-top: 14px;
+}
+
+.stat {
+  padding: 13px;
+  border-radius: var(--radius-md);
+  background: rgba(15, 118, 110, 0.08);
+  border: 1px solid rgba(15, 118, 110, 0.2);
+}
+
+.stat strong {
+  display: block;
+  font-size: 1.45rem;
+  color: var(--accent-dark);
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}

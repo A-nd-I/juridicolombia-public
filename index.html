@@ -9,7 +9,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/navigation.css">
+  <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/sections.css">
+  <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
   <header class="topbar">
@@ -25,6 +29,15 @@
           <a href="#screenshots" data-i18n="navScreenshots">Screenshots</a>
           <a href="#trust" data-i18n="navTrust">Confianza</a>
         </nav>
+        <a
+          class="nav-download"
+          href="https://chromewebstore.google.com/detail/juridicolombia/kjcddjbcdonpeiffjfpjghnennlmiifk"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="navDownload"
+        >
+          Descargar
+        </a>
         <div class="language-switcher" aria-label="Language selector">
           <button class="lang-button" type="button" data-lang="en" aria-pressed="false">
             🇺🇸 EN
@@ -44,9 +57,18 @@
         <h1 data-i18n="heroTitle">Búsqueda legal colombiana, hecha para el navegador.</h1>
         <p class="hero-copy" data-i18n="heroCopy">JuridiColombia ayuda a profesionales legales a consultar referencias colombianas por número de artículo o palabra clave, sin enviar el flujo principal de búsqueda a un servidor.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#product" data-i18n="primaryCta">Ver cómo funciona</a>
-          <a class="button button-secondary" href="ROADMAP.md" data-i18n="secondaryCta">Ver roadmap</a>
+          <a
+            class="button button-primary"
+            href="https://chromewebstore.google.com/detail/juridicolombia/kjcddjbcdonpeiffjfpjghnennlmiifk"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="primaryCta"
+          >
+            Descargar en Chrome Web Store
+          </a>
+          <a class="button button-secondary" href="#product" data-i18n="secondaryCta">Ver cómo funciona</a>
         </div>
+        <p class="store-note" data-i18n="storeNote">Disponible en Chrome Web Store · v0.1.0 · No recopila datos personales.</p>
       </div>
 
       <aside class="product-card" aria-label="Product preview">
@@ -202,7 +224,18 @@
           <h2 data-i18n="statusTitle">Página pública de producto. Código fuente privado.</h2>
           <p data-i18n="statusCopy">Este repositorio está pensado para credibilidad, roadmap, screenshots, issues y contacto.</p>
         </div>
-        <a class="button button-primary" href="CONTACT.md" data-i18n="contactCta">Contacto</a>
+        <div class="cta-stack">
+          <a
+            class="button button-primary"
+            href="https://chromewebstore.google.com/detail/juridicolombia/kjcddjbcdonpeiffjfpjghnennlmiifk"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="downloadCta"
+          >
+            Descargar extensión
+          </a>
+          <a class="button button-on-dark" href="CONTACT.md" data-i18n="contactCta">Contacto</a>
+        </div>
       </div>
     </section>
   </main>

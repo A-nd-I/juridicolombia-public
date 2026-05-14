@@ -1,0 +1,62 @@
+@media (max-width: 920px) {
+  .hero,
+  .split,
+  .quote-card,
+  .screenshots-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid,
+  .references,
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-download {
+    min-height: 36px;
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 620px) {
+  .page,
+  .topbar-inner {
+    width: min(100% - 24px, var(--max));
+  }
+
+  .hero {
+    padding-top: 48px;
+  }
+
+  section {
+    padding: 44px 0;
+  }
+
+  .product-card,
+  .split,
+  .quote-card {
+    padding: 18px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .nav-actions {
+    gap: 8px;
+  }
+
+  .nav-download {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+}

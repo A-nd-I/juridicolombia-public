@@ -1,0 +1,131 @@
+:root {
+  --bg: #f7f3ea;
+  --surface: #fffaf0;
+  --ink: #1f2933;
+  --muted: #5c6670;
+  --line: #d8cbb8;
+  --accent: #0f766e;
+  --accent-dark: #115e59;
+  --navy: #172554;
+  --success: #166534;
+  --danger: #9f1239;
+  --shadow: 0 24px 70px rgba(54, 42, 25, 0.14);
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --max: 1120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.12), transparent 30rem),
+    linear-gradient(180deg, #fbf7ef 0%, var(--bg) 52%, #eee4d2 100%);
+  line-height: 1.55;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(31, 41, 51, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 41, 51, 0.035) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to bottom, black, transparent 72%);
+}
+
+a {
+  color: inherit;
+}
+
+.page,
+.topbar-inner {
+  width: min(var(--max), calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.brand,
+.nav-actions,
+.nav-links,
+.language-switcher,
+.hero-actions,
+.preview-header,
+.preview-footer,
+footer .page {
+  display: flex;
+  align-items: center;
+}
+
+.eyebrow,
+.label {
+  display: inline-flex;
+  color: var(--accent-dark);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.label {
+  margin-bottom: 14px;
+  font-size: 0.86rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", serif;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.8rem);
+  max-width: 880px;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  letter-spacing: -0.02em;
+}
+
+section {
+  padding: 64px 0;
+}
+
+.section-intro {
+  max-width: 780px;
+  margin-bottom: 32px;
+}
+
+.hero-copy,
+.section-intro p {
+  color: var(--muted);
+  font-size: 1.16rem;
+}
+
+.card p,
+.article-card p,
+.reference p,
+.split p,
+.quote-card p {
+  color: var(--muted);
+  margin: 0;
+}

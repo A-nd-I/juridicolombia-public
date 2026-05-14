@@ -1,0 +1,97 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(247, 243, 234, 0.9);
+  border-bottom: 1px solid rgba(216, 203, 184, 0.7);
+  backdrop-filter: blur(16px);
+}
+
+.topbar-inner {
+  min-height: 72px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand {
+  gap: 12px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  display: block;
+  object-fit: contain;
+  background: transparent;
+}
+
+.nav-actions {
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  gap: 18px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--ink);
+}
+
+.nav-download {
+  min-height: 38px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--accent-dark);
+  border-radius: 999px;
+  background: var(--accent-dark);
+  color: var(--surface);
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(15, 118, 110, 0.18);
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.nav-download:hover {
+  background: var(--ink);
+  transform: translateY(-1px);
+  box-shadow: 0 12px 32px rgba(31, 41, 51, 0.18);
+}
+
+.language-switcher {
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 250, 240, 0.76);
+}
+
+.lang-button {
+  border: 0;
+  border-radius: 999px;
+  padding: 7px 11px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lang-button[aria-pressed="true"] {
+  color: var(--surface);
+  background: var(--ink);
+}
